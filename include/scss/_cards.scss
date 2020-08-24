@@ -1,0 +1,62 @@
+/**
+* ]-----------------------------------------------------------------------------[
+* | The MIT License (MIT)                                                       |
+* |                                                                             |
+* | Copyright (c) 2013-2020 Start Bootstrap LLC                                 |
+* |                                                                             |
+* | Permission is hereby granted, free of charge, to any person obtaining       |
+* | a copy of this software and associated documentation files                  |
+* | (the "Software"), to deal                                                   |
+* | in the Software without restriction, including without limitation           |
+* | the rights to use, copy, modify, merge, publish, distribute, sublicense,    |
+* | and/or sell copies of the Software, and to permit persons to whom           |
+* | the Software is furnished to do so, subject to the following conditions:    |
+* |                                                                             |
+* | The above copyright notice and this permission notice shall be included in  |
+* | all copies or substantial portions of the Software.                         |
+* |                                                                             |
+* | THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR  |
+* | IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,    |
+* | FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE |
+* | AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER      |
+* | LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,             |
+* | ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE          |
+* | OR OTHER DEALINGS IN THE SOFTWARE.                                          |
+* ]-----------------------------------------------------------------------------[
+*/
+// Custom Card Styling
+
+.card {
+  .card-header {
+    // Format Dropdowns in Card Headings
+    .dropdown {
+      line-height: 1;
+      .dropdown-menu {
+        line-height: 1.5;
+      }
+    }
+  }
+  // Collapsable Card Styling
+  .card-header[data-toggle="collapse"] {
+    text-decoration: none;
+    position: relative;
+    padding: 0.75rem 3.25rem 0.75rem 1.25rem;
+    &::after {
+      position: absolute;
+      right: 0;
+      top: 0;
+      padding-right: 1.725rem;
+      line-height: 51px;
+      font-weight: 900;
+      content: '\f107';
+      font-family: 'Font Awesome 5 Free';
+      color: $gray-400;
+    }
+    &.collapsed {
+      border-radius: $card-border-radius;
+      &::after {
+        content: '\f105';
+      }
+    }
+  }
+}

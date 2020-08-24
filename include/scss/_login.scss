@@ -1,0 +1,76 @@
+/**
+* ]-----------------------------------------------------------------------------[
+* | The MIT License (MIT)                                                       |
+* |                                                                             |
+* | Copyright (c) 2013-2020 Start Bootstrap LLC                                 |
+* |                                                                             |
+* | Permission is hereby granted, free of charge, to any person obtaining       |
+* | a copy of this software and associated documentation files                  |
+* | (the "Software"), to deal                                                   |
+* | in the Software without restriction, including without limitation           |
+* | the rights to use, copy, modify, merge, publish, distribute, sublicense,    |
+* | and/or sell copies of the Software, and to permit persons to whom           |
+* | the Software is furnished to do so, subject to the following conditions:    |
+* |                                                                             |
+* | The above copyright notice and this permission notice shall be included in  |
+* | all copies or substantial portions of the Software.                         |
+* |                                                                             |
+* | THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR  |
+* | IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,    |
+* | FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE |
+* | AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER      |
+* | LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,             |
+* | ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE          |
+* | OR OTHER DEALINGS IN THE SOFTWARE.                                          |
+* ]-----------------------------------------------------------------------------[
+*/
+// Pulling these images from Unsplash
+// Toshi the dog from https://unsplash.com/@charlesdeluvio - what a funny dog...
+
+.bg-login-image {
+  background: url('https://source.unsplash.com/K4mSJ7kc0As/600x800');
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-register-image {
+  background: url('https://source.unsplash.com/Mv9hjnEUHR4/600x800');
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-password-image {
+  background: url('https://source.unsplash.com/oWTW-jNGl9I/600x800');
+  background-position: center;
+  background-size: cover;
+}
+
+form.user {
+
+  .custom-checkbox.small {
+    label {
+      line-height: 1.5rem;
+    }
+  }
+
+  .form-control-user {
+    font-size: 0.8rem;
+    border-radius: 10rem;
+    padding: 1.5rem 1rem;
+  }
+
+  .btn-user {
+    font-size: 0.8rem;
+    border-radius: 10rem;
+    padding: 0.75rem 1rem;
+  }
+
+}
+
+.btn-google {
+  @include button-variant($brand-google, $white);
+}
+
+.btn-facebook {
+  @include button-variant($brand-facebook, $white);
+}

@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?aty7h7');
+  src:  url('fonts/icomoon.eot?aty7h7#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?aty7h7') format('truetype'),
+    url('fonts/icomoon.woff?aty7h7') format('woff'),
+    url('fonts/icomoon.svg?aty7h7#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icn-"], [class*=" icn-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icn-herodotos:before {
+  content: "\e900";
+  color: #fff;
+}
+
+.icn-2x:before {
+    font-size: 2rem;
+}
+.icn-3x:before {
+    font-size: 3rem;
+}
+.icn-4x:before {
+    font-size: 4rem;
+}

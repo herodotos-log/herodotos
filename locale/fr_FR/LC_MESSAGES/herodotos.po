@@ -1,0 +1,221 @@
+#
+# HERODOTOS - 1.0.0 - a7c083b337fec7683509299d7edb8d2a
+# ]-----------------------------------------------------------------------------[
+# | Copyright (C) 2020 HERODOTOS                                                |
+# |                                                                             |
+# | This program is free software; you can redistribute it and/or               |
+# | modify it under the terms of the GNU Affero General Public License          |
+# | as published by the Free Software Foundation; either version 2              |
+# | of the License, or (at your option) any later version.                      |
+# |                                                                             |
+# | This program is distributed in the hope that it will be useful,             |
+# | MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the               |
+# | GNU Affero General Public License for more details.                         |
+# |                                                                             |
+# | You should have received a copy of the GNU Affero General Public License    |
+# | along with this program.  If not, see https://www.gnu.org/licenses.         |
+# ]-----------------------------------------------------------------------------[
+# | HERODOTOS: Easier Reading Logs                                              |
+# ]-----------------------------------------------------------------------------[
+# | This code is designed, written, and maintained by dpkg.ch. See              |
+# | about.php and/or the CREDITS file for specific developer information.       |
+# ]-----------------------------------------------------------------------------[
+# | https://dpkg.ch                                                             |
+# ]-----------------------------------------------------------------------------[
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Herodotos\n"
+"POT-Creation-Date: 2020-08-05 19:53+0200\n"
+"PO-Revision-Date: 2020-08-05 20:07+0200\n"
+"Last-Translator: \n"
+"Language-Team: dpkg.ch\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4\n"
+"X-Poedit-Basepath: ../../..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: locale/fr_FR\n"
+"X-Poedit-SearchPath-1: install\n"
+"X-Poedit-SearchPath-2: .\n"
+"X-Poedit-SearchPathExcluded-0: locale/fr_FR/include\n"
+"X-Poedit-SearchPathExcluded-1: include\n"
+
+#: install/index.php:40
+msgid "Installation – Requirements"
+msgstr "Installation – Exigences"
+
+#: install/index.php:49
+msgid "OS is "
+msgstr "L’OS est "
+
+#: install/index.php:54 install/index.php:66
+msgid " – OK!"
+msgstr " – OK !"
+
+#: install/index.php:61
+msgid "PHP version is "
+msgstr "La version de PHP est la "
+
+#: install/index.php:74
+msgid "PHP sessions must be enabled!"
+msgstr "Le module ‘sessions’ de PHP doit être activé !"
+
+#: install/index.php:79
+msgid "PHP sessions is enabled!"
+msgstr "Le module ‘session’ de PHP est activé !"
+
+#: install/index.php:86
+msgid "Gettext must be supported!"
+msgstr "Gettext doit être supporté !"
+
+#: install/index.php:91
+msgid "Gettext is supported!"
+msgstr "Gettext est supporté !"
+
+#: install/index.php:109
+msgid "MySQL version will be check at the next step!"
+msgstr "La version de MySQL sera vérifiée dans une autre étape !"
+
+#: install/index.php:118
+msgid "Operating System"
+msgstr "Système d’exploitation"
+
+#: install/index.php:119
+msgid "PHP version"
+msgstr "Version de PHP"
+
+#: install/index.php:120
+msgid "PHP Session"
+msgstr "Module ‘session’ de PHP"
+
+#: install/index.php:121
+msgid "PHP Gettext"
+msgstr "Module ‘gettext’ de PHP"
+
+#: install/index.php:122
+msgid "MySQL version"
+msgstr "Version de MySQL"
+
+#: install/index.php:276
+msgid "Requirements"
+msgstr "Exigences"
+
+#: install/index.php:277
+msgid "General"
+msgstr "Général"
+
+#: install/index.php:285
+msgid "Install – Requirements"
+msgstr "Installation – Exigences"
+
+#: install/index.php:286
+msgid "General requirements"
+msgstr "Exigences générales"
+
+#: install/index.php:315
+msgid "Reload"
+msgstr "Recharger"
+
+#: install/index.php:322 install/index.php:392 install/index.php:447
+msgid "Next"
+msgstr "Suivant"
+
+#: install/index.php:335
+msgid "Install – General"
+msgstr "Installation – Général"
+
+#: install/index.php:336
+msgid "All basic informations"
+msgstr "Informations basiques"
+
+#: install/index.php:351
+msgid "Website URL"
+msgstr "URL du site"
+
+#: install/index.php:353
+msgid "Enter a valid URL"
+msgstr "Veuillez entrer une URL valide"
+
+#: install/index.php:356
+msgid "Website"
+msgstr "Site"
+
+#: install/index.php:358 install/index.php:415
+msgid "Only ASCII (max.: 32)"
+msgstr "ASCII uniquement (max. : 32)"
+
+#: install/index.php:361
+msgid "Website Description"
+msgstr "Description du site"
+
+#: install/index.php:363 install/index.php:370
+msgid "Alphanumericals and accented characters (max.: 128)"
+msgstr "Alphanumériques et accents uniquement (max. : 128)"
+
+#: install/index.php:368
+msgid "Author"
+msgstr "Auteur"
+
+#: install/index.php:373
+msgid "Language"
+msgstr "Langue"
+
+#: install/index.php:381
+msgid "You must choose a language!"
+msgstr "Veuillez choisir un langage !"
+
+#: install/index.php:389 install/index.php:444
+msgid "Previous"
+msgstr "Précédent"
+
+#: install/index.php:402
+msgid "Install – MySQL"
+msgstr "Installation – MySQL"
+
+#: install/index.php:403
+msgid "MySQL informations"
+msgstr "Informations MySQL"
+
+#: install/index.php:408
+msgid "Server address"
+msgstr "Adresse du serveur"
+
+#: install/index.php:410
+msgid "Enter a valid IPv4 or hostname"
+msgstr "Veuillez entrer une adresse IPv4 ou un nom d’hôte"
+
+#: install/index.php:413
+msgid "Username"
+msgstr "Nom d’utilisateur"
+
+#: install/index.php:418
+msgid "Password"
+msgstr "Mot de passe"
+
+#: install/index.php:420
+msgid "Only ASCII (min.: 4)"
+msgstr "Uniquement ASCII (min. : 4)"
+
+#: install/index.php:423
+msgid "Port"
+msgstr ""
+
+#: install/index.php:425
+msgid "Only integers (default: 3306)"
+msgstr "Uniquement des entiers (défaut : 3306)"
+
+#: install/index.php:434
+msgid "Try connection"
+msgstr "Essayer la connexion"
+
+#: install/index.php:460
+msgid "Need help? Follow the instructions!"
+msgstr "Besoin d’aide ? Suivez les instructions !"
+
+#~ msgid "Hello Jonas!"
+#~ msgstr "Bonjour Jonas !"
