@@ -1,0 +1,2 @@
+# herodotos
+Easier Reading Logs
